@@ -1,4 +1,9 @@
 0.3.0
+R-assertthat
+R-cli
+R-markdown
+R-mime
 R-rlang
 R-sm
+R-withr
 R-zoo
