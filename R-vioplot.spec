@@ -4,17 +4,12 @@
 #
 Name     : R-vioplot
 Version  : 0.3.0
-Release  : 9
+Release  : 10
 URL      : https://cran.r-project.org/src/contrib/vioplot_0.3.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/vioplot_0.3.0.tar.gz
 Summary  : Violin Plot
 Group    : Development/Tools
 License  : BSD-3-Clause
-Requires: R-assertthat
-Requires: R-cli
-Requires: R-markdown
-Requires: R-mime
-Requires: R-withr
 BuildRequires : R-assertthat
 BuildRequires : R-cli
 BuildRequires : R-markdown
@@ -36,10 +31,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1552838766
+export SOURCE_DATE_EPOCH=1552920254
 
 %install
-export SOURCE_DATE_EPOCH=1552838766
+export SOURCE_DATE_EPOCH=1552920254
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
