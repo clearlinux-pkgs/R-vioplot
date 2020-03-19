@@ -4,7 +4,7 @@
 #
 Name     : R-vioplot
 Version  : 0.3.4
-Release  : 18
+Release  : 19
 URL      : https://cran.r-project.org/src/contrib/vioplot_0.3.4.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/vioplot_0.3.4.tar.gz
 Summary  : Violin Plot
